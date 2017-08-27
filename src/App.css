@@ -1,0 +1,28 @@
+body {
+  background-color: #020122;
+  color: white;
+  font-family: 'Dosis', sans-serif;
+  background-image: url("http://i.imgur.com/E6I1yzZ.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.flexcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: flex-start;
+  height: 90vh;
+}
+
+.item {
+  margin: .1em;
+  color: #fff8f0;
+  font-family: 'Dosis', sans-serif;
+  font-size: 8vh;
+  letter-spacing: 0.15em;
+  text-align: center;
+  line-height: 2em;
+}
